@@ -45,7 +45,7 @@ data/fetch_data.py          ← price data + fundamentals
 
 ### Cumulative Returns (2016–2025)
 
-![Cumulative Returns](outputs/cumulative_returns.png)
+![Cumulative Returns](cumulative_returns.png)
 
 Both models outperformed SPY *in-sample* (2016–2022), with Momentum peaking at ~3.2× and MVO+ML reaching ~2.5× versus SPY's ~2.5×. **Out-of-sample (2023–2025), both significantly underperformed** — SPY compounded to ~1.85× while Momentum ended near breakeven (~0.9×) and MVO+ML stagnated at ~1.1×.
 
@@ -53,7 +53,7 @@ Both models outperformed SPY *in-sample* (2016–2022), with Momentum peaking at
 
 ### Portfolio Drawdown
 
-![Drawdown](outputs/drawdown.png)
+![Drawdown](drawdown.png)
 
 The COVID crash (Feb–Apr 2020) exposed severe tail risk in both models, with MVO+ML drawing down nearly **−78%** and Momentum hitting **−65%** — far worse than SPY's **−32%**. Out-of-sample, Momentum's 2025 drawdown of ~−45% further highlights regime fragility.
 
@@ -61,7 +61,7 @@ The COVID crash (Feb–Apr 2020) exposed severe tail risk in both models, with M
 
 ### 60-Day Rolling Sharpe Ratio
 
-![Rolling Sharpe](outputs/rolling_sharpe.png)
+![Rolling Sharpe](rolling_sharpe.png)
 
 SPY's rolling Sharpe consistently tracks above both models out-of-sample. The two AI strategies show highly volatile risk-adjusted returns with extended sub-zero periods, while SPY maintains a more stable positive profile — particularly notable in the 2023–2025 window.
 
