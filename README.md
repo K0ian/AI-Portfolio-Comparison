@@ -138,8 +138,3 @@ All outputs are written to `outputs/`. No API keys required — data is pulled v
 
 **Dependencies:** `yfinance` · `pandas` · `numpy` · `scipy` · `scikit-learn` · `matplotlib` · `seaborn`
 
----
-
-## Context
-
-This project was developed as part of a research paper for a Money, Banking & Financial Markets course, comparing AI-driven portfolio construction against passive benchmarks. The out-of-sample underperformance was the central finding, interpreted through a market efficiency lens.
